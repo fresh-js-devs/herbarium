@@ -10,7 +10,7 @@ Vytvor aplikáciu, ktorá:
 4. Back button z detailu na hlavnú stránku
 
 Mock dáta, ktoré budeš mapovať sa nachádzajú v `src/data`.
-Inšpiruj sa kódom z hodiny, ale nech to nevyzerá rovnako -_-
+Inšpiruj sa kódom z hodiny, ale nech to nevyzerá rovnako -_- (Patrik to pozná)
 
 ### Čo k tomu
 * `react-router` a `react-router-dom`
