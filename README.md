@@ -22,4 +22,5 @@ Pár tipov nižšie:
 * Styled Components (Emotion)
 * UI Framework (Material UI, Antd...)
 * Celkový dojem z UI a UX (rozumej dobrý vzhľad)
+* Čistota kódu
 
