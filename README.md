@@ -1,4 +1,4 @@
-## Herbarium 🌱
+## 🌱Herbarium 🌱
 
 Aplikácia pre všetky buriny!
 
