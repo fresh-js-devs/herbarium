@@ -5,7 +5,7 @@ import { useParams, useHistory } from "react-router-dom";
 
 import plants from "../../data/plants.json";
 
-import "./DetailPage.css";
+import BackButton from "../../components/molecules/BackButton/BackButton";
 
 const DetailPage = () => {
   const { id } = useParams();
@@ -25,11 +25,7 @@ const DetailPage = () => {
         img={img}
         isDetail={true}
       />
-      <div className="back" onClick={() => history.goBack()}>
-        <span role="img" aria-label="back">
-          ↩️ <strong>Back</strong>
-        </span>
-      </div>
+      <BackButton goBack={() => history.goBack()} />
     </Layout>
   );
 };

@@ -13,6 +13,17 @@
   box-shadow: 0 7px 14px rgba(0, 0, 0, 0.15), 0 7px 7px rgba(0, 0, 0, 0.15);
 }
 
+.cardDetail {
+  min-height: 150px;
+  padding: 20px;
+  width: 40%;
+  margin: auto;
+  transition: box-shadow 300ms;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.13), 0 3px 6px rgba(0, 0, 0, 0.13);
+  border-radius: 25px;
+  margin-top: 25px;
+}
+
 .cardHeading {
   display: flex;
   justify-content: space-between;

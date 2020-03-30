@@ -13,7 +13,7 @@ const Card = ({
   isDetail
 }) => {
   const detailCard = () => (
-    <div onClick={goToDetailPage} className="card">
+    <div onClick={goToDetailPage} className="cardDetail">
       <div className="cardHeading">
         <div className="languages">
           <h3>
