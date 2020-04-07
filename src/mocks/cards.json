@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Rose",
+    "shortDescription": "A rose is a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears.",
+    "description": "A rose is a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears. There are over three hundred species and thousands of cultivars. They form a group of plants that can be erect shrubs, climbing, or trailing, with stems that are often armed with sharp prickles. Flowers vary in size and shape and are usually large and showy, in colours ranging from white through yellows and reds. Most species are native to Asia, with smaller numbers native to Europe, North America, and northwestern Africa. Species, cultivars and hybrids are all widely grown for their beauty and often are fragrant. Roses have acquired cultural significance in many societies. Rose plants range in size from compact, miniature roses, to climbers that can reach seven meters in height. Different species hybridize easily, and this has been used in the development of the wide range of garden roses.",
+    "kingdom": "Plantae",
+    "family": "Rosaceae",
+    "imgName": "ruze.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Viola",
+    "shortDescription": "Viola is a genus of flowering plants in the violet family Violaceae. It is the largest genus in the family, containing between 525 and 600 species.",
+    "description": "Viola is a genus of flowering plants in the violet family Violaceae. It is the largest genus in the family, containing between 525 and 600 species. Most species are found in the temperate Northern Hemisphere; however, some are also found in widely divergent areas such as Hawaii, Australasia, and the Andes. Some Viola species are perennial plants, some are annual plants, and a few are small shrubs. Many species, varieties and cultivars are grown in gardens for their ornamental flowers. In horticulture the term pansy is normally used for those multi-colored, large-flowered cultivars which are raised annually or biennially from seed and used extensively in bedding. The terms viola and violet are normally reserved for small-flowered annuals or perennials, including the wild species.",
+    "kingdom": "Plantae",
+    "family": "Violaceae",
+    "imgName": "viola.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Venus flytrap",
+    "shortDescription": "The Venus flytrap (Dionaea muscipula) is a carnivorous plant native to subtropical wetlands on the East Coast of the United States in North Carolina and South Carolina.",
+    "description": "The Venus flytrap (Dionaea muscipula) is a carnivorous plant native to subtropical wetlands on the East Coast of the United States in North Carolina and South Carolina.[3] It catches its prey—chiefly insects and arachnids—with a trapping structure formed by the terminal portion of each of the plant's leaves, which is triggered by tiny hairs (called \"trigger hairs\" or \"sensitive hairs\") on their inner surfaces. When an insect or spider crawling along the leaves contacts a hair, the trap prepares to close, snapping shut only if another contact occurs within approximately twenty seconds of the first strike. Triggers may occur if one-tenth of the insect is within contact.[4] The requirement of redundant triggering in this mechanism serves as a safeguard against wasting energy by trapping objects with no nutritional value, and the plant will only begin digestion after five more stimuli to ensure it has caught a live bug worthy of consumption. Dionaea is a monotypic genus closely related to the waterwheel plant (Aldrovanda vesiculosa) and sundews (Drosera), all of which belong to the family Droseraceae. Although widely cultivated for sale, the population of the Venus flytrap has been rapidly declining in its native range.[5] The species is currently under Endangered Species Act review by the U.S. Fish & Wildlife Service.",
+    "kingdom": "Plantae",
+    "family": "Droseraceae",
+    "imgName": "flytrap.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Bellis perennis",
+    "shortDescription": "Bellis perennis is a common European species of daisy, of the family Asteraceae, often considered the archetypal species of that name.",
+    "description": "Many related plants also share the name \"daisy\", so to distinguish this species from other daisies it is sometimes qualified as common daisy, lawn daisy or English daisy. Historically, it has also been commonly known as bruisewort and occasionally woundwort (although the common name woundwort is now more closely associated with Stachys). Bellis perennis is native to western, central and northern Europe, including remote islands such as the Faroe Islands but widely naturalised in most temperate regions including the Americas[2][3] and Australasia.",
+    "kingdom": "Plantae",
+    "family": "Asteraceae",
+    "imgName": "daisy.jpg"
+  }
+]
