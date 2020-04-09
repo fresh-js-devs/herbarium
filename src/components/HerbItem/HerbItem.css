@@ -1,0 +1,22 @@
+.herbitem {
+    display: flex;
+    background-color: #fff;
+    border-bottom: 1px solid #e3e3e3;
+    transition: background-color 0.7s ease-out;
+    cursor: pointer;
+    padding: 1rem;
+  }
+  
+  .herbitem:hover {
+    background-color: #eee;
+  }
+  
+  .herbitem .herbitem__profile img {
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+  }
+  
+  .herbitem .herbitem__content {
+    margin-left: 1rem;
+  }
