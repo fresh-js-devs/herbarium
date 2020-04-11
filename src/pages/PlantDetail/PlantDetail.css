@@ -1,0 +1,18 @@
+.image-style{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.styled-button{
+    background-color: #1890ff;
+    color: white;
+    font-family:sans-serif;
+    font-size: 22px;
+    margin-bottom: 10px;
+    transition-duration: 0.4s;
+}
+.styled-button:hover{
+    background-color: #40a9ff;
+    color: white;
+}

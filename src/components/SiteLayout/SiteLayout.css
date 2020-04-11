@@ -1,0 +1,15 @@
+.site-header{
+    margin-bottom: 16px;
+}
+.site-header h1{
+    color: white;
+}
+.site-content{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.site-layout-content {
+    background: #fff;
+    padding: 24px;
+    min-height: 280px;
+  }
