@@ -18,7 +18,7 @@ const SiteLayout = ({ children }) => {
           </div>
       </Content>
       <Footer>
-        <p style={{textAlign:'center'}}>Matej Makara</p>
+        <p style={{textAlign:'center'}}>Made by Matej Makara</p>
       </Footer>
     </Layout>
   );
