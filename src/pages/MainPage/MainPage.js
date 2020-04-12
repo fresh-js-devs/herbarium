@@ -9,7 +9,7 @@ const MainPage = () => {
             <h1>Herbarium App - Main Page</h1> 
             {plants.map(({id, familyName, commonName})=>(
                 <HerbItem 
-                    key={id}
+                    id={id}
                     familyName={familyName}
                     commonName={commonName}
                 />
