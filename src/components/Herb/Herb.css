@@ -1,0 +1,42 @@
+.herb{
+    flex: 0 0 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    color:#A9FDAC;
+    width: 50%;
+    margin: 2rem auto;
+    background-color: #60695C;
+    cursor: pointer;
+    padding: 1rem;
+    border: 1rem solid #A9FDAC;
+    border-radius: 40px;
+    transition: background-color .4s, border-color .3s, color .4s, transform .5s;
+}
+
+.herb:hover{
+    background-color: #A9FDAC;
+    border-color: #60695C;
+    color: #60695C;
+    transform: scale(1.1);
+}
+
+.herb .herb-content .herb-content-header{
+    text-align: center;
+}
+
+.herb .herb-content .herb-content-header h3{
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+
+.herb .herb-img{    
+    min-width: 40%;
+    padding: 1rem;
+}
+
+.herb .herb-img img{
+    max-height: 400px;
+}

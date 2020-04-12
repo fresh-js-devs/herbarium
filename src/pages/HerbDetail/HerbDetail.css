@@ -1,0 +1,41 @@
+.herb-detail{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    box-sizing: border-box;
+    border: 1rem solid #A9FDAC;
+    border-radius: 40px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.herb-detail .herb-detail-header{
+    background-color: #eee;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    padding: 2rem;
+}
+
+.herb-detail .herb-detail-body {
+    width: 100%;
+}
+
+.herb-detail .herb-detail-body .herb-detail-about {
+    background-color: #eee;
+    padding: 2rem;
+    margin-bottom: 1rem;;
+}
+
+.herb-detail .herb-detail-body .herb-detail-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.herb-detail .herb-detail-body .herb-detail-image img{
+    max-height: 600px;
+}
+
+.bold{
+    font-weight: bold;
+}

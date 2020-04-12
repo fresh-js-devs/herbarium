@@ -1,0 +1,21 @@
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+    margin-left: 1rem;      
+    
+}
+
+.logo a{    
+    color: #A9FDAC;
+    text-decoration: none;
+    text-transform: uppercase;
+    content: url(../../img/logo.png);
+    transition: transform .2s;
+}
+
+.logo a:hover{
+    transform: scale(1.1);
+}
