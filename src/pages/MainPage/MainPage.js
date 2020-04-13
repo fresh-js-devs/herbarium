@@ -10,10 +10,12 @@ import './MainPage.css'
 
 const MainPage = () => {
     
-    //plants.map(x => console.log(x));
+    plants.map(x => console.log(x));
 
     const { push } = useHistory();
     const handleGoToHerbariumDetail = id => push(`/herbariumDetail/${id}`);
+
+
 
     return (
         

@@ -1,7 +1,7 @@
 .herbarium-card {
     padding: 30px 50px;
     background-color: slategray;
-    margin: 20px auto;
+    margin: 30px auto;
     width: 800px;
 
     text-align: left;
@@ -9,6 +9,10 @@
     align-items: center;
     justify-content: center;
     
+}
+
+.herbarium-card:hover {
+    cursor: pointer;
 }
 
 .herbarium-card img {
