@@ -1,8 +1,12 @@
 import React from 'react';
 import './HerbItem.css';
 
+
 const HerbItem = ({ id, commonName, img, onGoToHerbDetail}) => {
+
+
     return (
+        
         <div onClick = {onGoToHerbDetail} className='herbitem'>
             <div className='herbitem__picture'>
                 <img src={img} alt='mock picture' />
@@ -11,6 +15,7 @@ const HerbItem = ({ id, commonName, img, onGoToHerbDetail}) => {
                 <span>common Name: <strong>{commonName}</strong></span>
             </div>            
         </div>
+        
     );
 };
 
