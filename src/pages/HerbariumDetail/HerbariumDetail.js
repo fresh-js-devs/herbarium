@@ -1,5 +1,5 @@
 import React, { Component, useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useHistory } from 'react-router-dom';
 
 import herbariums from '../../data/plants.json'
 import Layout from '../../components/Layout/Layout';
@@ -11,6 +11,8 @@ const HerbariumDetail = () => {
 
     const {id} =useParams();
     const [specificHerbarium, setSpecificHerbarium] = useState({});
+
+    const history = useHistory();
 
     useEffect(() => {
         if(id) {
@@ -34,7 +36,7 @@ const HerbariumDetail = () => {
                 
             </div>
         )}
-        <GoBack />
+        <BackButton goBack={() => history.goBack()} />
         </Layout>
     );
 
