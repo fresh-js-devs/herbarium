@@ -11,10 +11,13 @@ const MyFooter = styled.div`
     #93d09e,
     #d2e7a1
   );
+  height: 50px;
+  box-sizing: border-box;
+  position: relative;
+  bottom: 0;
 `;
 const Autor = styled.p`
   margin: auto;
-  padding: 20px;
   font-weight: bold;
   color: white;
 `;

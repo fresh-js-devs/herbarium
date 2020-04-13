@@ -16,13 +16,20 @@ const useStyles = makeStyles({
     height: 140,
   },
 });
-
-const PlantCard = ({ id, familyName, commonName, img }) => {
+const PlantCard = ({
+  id,
+  familyName,
+  commonName,
+  scintificName,
+  about,
+  img,
+  goToPlantDetatil,
+}) => {
   const classes = useStyles();
 
   return (
     <Grid item xs={4}>
-      <Card className={classes.root}>
+      <Card className={classes.root} onClick={goToPlantDetatil}>
         <CardActionArea>
           <CardMedia
             className={classes.media}
@@ -33,15 +40,11 @@ const PlantCard = ({ id, familyName, commonName, img }) => {
             <Typography gutterBottom variant="h5" component="h2">
               {commonName}
             </Typography>
-            {/*Typography variant="body2" color="textSecondary" component="p">
-              Lizards are a widespread group of squamate reptiles, with over
-              6,000 species, ranging across all continents except Antarctica
-  </Typography>*/}
           </CardContent>
         </CardActionArea>
         <CardActions>
-          <Button size="small" color="primary">
-            Learn More
+          <Button size="small" color="primary" onClick={goToPlantDetatil}>
+            Detail
           </Button>
         </CardActions>
       </Card>

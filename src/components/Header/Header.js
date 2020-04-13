@@ -3,7 +3,9 @@ import styled from "@emotion/styled";
 import { FilterVintage } from "@material-ui/icons";
 const Herbarium = styled.div`
   display: flex;
-  margin-bottom: 50px;
+  height: 80px;
+  box-sizing: border-box;
+  margin-bottom: 80px;
   background-image: linear-gradient(
     to right,
     #007a94,
@@ -17,7 +19,6 @@ const Herbarium = styled.div`
 const Title = styled.h1`
   margin: auto;
   color: white;
-  padding: 20px;
 `;
 const Header = () => (
   <Herbarium>

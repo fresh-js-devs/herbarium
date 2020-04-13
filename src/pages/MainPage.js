@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Container } from "@material-ui/core";
 import PlantCard from "../components/PlantCard";
 import Plants from "../data/plants.json";
 import Grid from "@material-ui/core/Grid";
@@ -8,6 +7,8 @@ import { useHistory } from "react-router-dom";
 
 const MainPage = () => {
   const [plants, setPlants] = useState(Plants);
+  const { push } = useHistory();
+  const handleGoToPlantDetail = (id) => push(`/plant/${id}`);
   const renderPlants = () =>
     plants.map(({ id, familyName, commonName, img }) => (
       <PlantCard
@@ -16,15 +17,14 @@ const MainPage = () => {
         commonName={commonName}
         id={id}
         img={img}
+        goToPlantDetatil={() => handleGoToPlantDetail(id)}
       />
     ));
 
   return (
-    <Container maxWidth="md">
-      <Grid container spacing={3}>
-        {renderPlants()}
-      </Grid>
-    </Container>
+    <Grid container spacing={3}>
+      {renderPlants()}
+    </Grid>
   );
 };
 export default MainPage;
