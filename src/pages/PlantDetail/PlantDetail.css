@@ -1,0 +1,39 @@
+.plant-detail {
+  transition: background-color 0.7s ease-out;
+  padding: 1rem;
+}
+
+.plant-detail {
+  display: flex;
+  flex: row;
+}
+
+.plant-detail img {
+  border-radius: 5%;
+  width: 11rem;
+  height: 11rem;
+}
+
+.plant-detail .plant-detail__content {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.plant-detail .plant-detail__content .plant__message {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.plant-detail__header-name {
+  margin-left: 15px;
+}
+.plant-detail__header-name strong {
+  font-size: larger;
+}
+
+.backIcon {
+  margin-left: 12px;
+  cursor: pointer;
+  position: absolute;
+  right: 30px;
+}

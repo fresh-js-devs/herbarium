@@ -1,0 +1,8 @@
+.card {
+  display: flex;
+  margin: 10px;
+  background-color: rgb(53, 53, 53);
+  transition: background-color 0.7s ease-out;
+  cursor: pointer;
+  border-radius: 5px;
+}
