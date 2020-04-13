@@ -2,7 +2,7 @@ import React from "react";
 import { Switch, Route, BrowserRouter} from 'react-router-dom';
 
 import MainPage from "../MainPage/MainPage";
-import HerbDetail from "../HerbDetail/HerbDetail";
+import HerbDetail from "../Herbs/HerbDetail";
 
 export default () => (
     <BrowserRouter>
