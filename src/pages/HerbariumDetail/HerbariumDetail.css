@@ -1,8 +1,11 @@
 .herbarium-detail {
     padding: 10px;
-    background-color: burlywood;
-    width: 500px;
+    background-color: slategray;
+    width: 70%;
     display: flexbox;
     margin: 0 auto;
 }
 
+.herbarium-detail img {
+    width: 30%;
+}

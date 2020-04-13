@@ -2,16 +2,27 @@ import React, { Component } from 'react';
 
 import './Herbarium.css'
 
+import Grid from '@material-ui/core/Grid';
+import Paper from '@material-ui/core/Paper';
+
 const Herbarium = ({onGoTomDetail,familyName, scintificName,commonName, about, img}) => {
-    
     
     return (
         <div className='herbarium-card' onClick={onGoTomDetail}>
-            <h3>{familyName}</h3>
-            <li>{scintificName}</li>
-            <li>{commonName}</li>
-            <p>{about}</p>
-            <img src={img}/>
+            <Grid container spacing={2}>
+                <Grid item xs={3}>
+                    <img src={img}/>
+                </Grid>
+                <Grid item xs={9}>
+                    <h2>{familyName}</h2>
+                    <div><b>scintificName:</b> {scintificName}</div>
+                    <div><b>commonName:</b> {commonName}</div>
+                    <p>{about}</p>
+                </Grid>
+            </Grid>
+            
+            
+            
         </div>
     );
 };

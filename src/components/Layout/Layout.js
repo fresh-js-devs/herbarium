@@ -13,13 +13,14 @@ const Layout = ({ children }) => {
         <div className='header'>
             <Logo />
         </div>
+      
+        <div className='container'>
+            {children}
+        </div>
 
-      
-      
-      <div className='container'>
-        {pathname === '/' ? <h1>Main page</h1> : <h1>Post</h1>}
-        {children}
-      </div>
+        <div className='footer'>
+            
+        </div>
     </div>
   );
 };

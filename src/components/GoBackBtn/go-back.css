@@ -1,0 +1,10 @@
+.back{
+    padding: 5px 30px;
+    display: block;
+    background-color: darkslategray;
+    width: 30px;
+    margin: 10px auto;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}

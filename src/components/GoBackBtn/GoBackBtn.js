@@ -1,12 +1,10 @@
 import React from "react";
-//import "./GoBack.css";
+import "./go-back.css";
 
 const GoBackBtn = ({ goBack }) => {
   return (
     <div className="back" onClick={goBack}>
-      <span role="img" aria-label="back">
-        <strong>Back</strong>
-      </span>
+        Back
     </div>
   );
 };
