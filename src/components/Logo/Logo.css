@@ -1,8 +1,12 @@
 .logo {
-  position: absolute;
-  top: 0.7rem;
-  left: 15%;
-  font-size: 1.6rem;
-  font-weight: 700;
-  color: #3498db;
+  color: aliceblue;
+}
+
+.logo a:visited {
+  color: white;
+  
+}
+
+.logo a {
+  text-decoration: none;
 }

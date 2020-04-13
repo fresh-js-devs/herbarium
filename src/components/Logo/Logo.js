@@ -6,7 +6,7 @@ import './Logo.css';
 const Logo = ({ onClick }) => {
   return (
     <div onClick={onClick} className='logo'>
-      <NavLink to="/">Herbarium</NavLink>
+      <NavLink to="/">Herbarium App</NavLink>
       
     </div>
   );
