@@ -1,5 +1,7 @@
 import React from "react";
 
+import { useHistory } from 'react-router-dom';
+
 import styled from "@emotion/styled";
 
 import HerbCard from "./HerbCard";
@@ -14,13 +16,18 @@ const Wrapper = styled.div({
 });
 
 const HerbList = () => {
+
+  const { push } = useHistory();
+
+  const handleDetailClicked = id => push(`/herb/${id}`);
+
   const renderTiles = () =>
     plants &&
     plants.map((plant) => (
       <HerbCard
         key={plant.id}
-        plant={plant}
-        // onDetailClicked={doneClicked}
+        plant={plant} 
+        handleDetailClicked={() => handleDetailClicked(plant.id)}
       />
     ));
 

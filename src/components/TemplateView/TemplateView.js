@@ -4,11 +4,12 @@ import styled from "@emotion/styled";
 
 const Base = styled.div({
   margin: "auto",
+  paddingTop: "10vh",
 });
 
 const Footer = styled.div({
   margin: "auto",
-  minHeight: "100px",
+  minHeight: "10vh",
   display: "flex",
   justifyContent: "center",
   justifyItems: "center",
@@ -19,13 +20,17 @@ const Footer = styled.div({
 
 const Header = styled.div({
   margin: "auto",
-  minHeight: "100px",
+  minHeight: "10vh",
+  width: "100vw",
+  zIndex : "5",
+  top:"0",
   display: "flex",
   justifyContent: "center",
   justifyItems: "center",
   alignContent: "center",
   alignItems: "center",
   backgroundColor: "#9ed166",
+  position: "fixed"
 });
 
 const TemplateView = ({ header, children }) => {
