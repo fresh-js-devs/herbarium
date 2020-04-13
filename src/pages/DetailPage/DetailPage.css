@@ -1,0 +1,44 @@
+.detail-page {
+    background-color: lightgreen;
+    border-bottom: 1px solid #e3e3e3;
+    transition: background-color 0.7s ease-out;
+    padding: 1rem;
+  }
+  
+  .detail-page .detail-page__header {
+    display: flex;
+  }
+  
+  .detail-page .detail-page__header img {
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+  }
+  
+  .detail-page .detail-page__header .detail-page__header-name {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    color: brown;
+  }
+  
+  .detail-page .detail-page__content {
+    margin-top: 1rem;
+  }
+  
+  .detail-page .detail-page__content .card__message {
+    font-size: 1.3rem;
+    margin: 1rem 0;
+  }
+  
+  .detail-page .detail-page__content .detail-page__action-buttons {
+    margin-top: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+.messageBlock {
+  margin: 1rem 0;
+}

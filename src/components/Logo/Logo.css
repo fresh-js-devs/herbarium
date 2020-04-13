@@ -1,0 +1,32 @@
+.logo {
+    position: absolute;
+    top: 0.7rem;
+    left: 15%;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: brown;
+  }
+  
+   
+.plantLogo {
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+}  
+  
+
+a:link {
+  color:  brown;;
+}
+
+a:visited {
+  color:  brown;;
+}
+
+a:hover {
+  color: green;
+}
+
+a:active {
+  color: lightgreen;
+}
