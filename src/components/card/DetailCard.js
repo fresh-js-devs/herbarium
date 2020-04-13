@@ -5,6 +5,8 @@ import Card from './Card';
 import Herbs from '../../data/plants.json';
 import './DetailCard.css';
 import { useHistory } from 'react-router-dom';
+import ReactFancyBox from 'react-fancybox'
+import 'react-fancybox/lib/fancybox.css'
 
 const CardDetail  = () => {
     const { id } = useParams();
@@ -12,8 +14,7 @@ const CardDetail  = () => {
 
   const herb = Herbs.find(Herbs => Herbs.id === parseInt(id));
   const { familyName, scintificName, commonName, about, img} = herb;
-
-
+  window.scrollTo(0,0);
     return(
         <div className="layout">
             <a href="/" className="back">Back to main page</a>
@@ -21,7 +22,11 @@ const CardDetail  = () => {
     <h2>Family: {familyName}</h2>
     <h2>Scientific name: {scintificName}</h2>
     <p><b>About:</b> {about}</p>
-    <img src={img} className="imageLayout"></img>
+    <ReactFancyBox
+        thumbnail={img}
+        image={img}
+    />
+    
 
         </div>
     );
