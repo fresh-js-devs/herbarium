@@ -4,7 +4,7 @@ import HerbList from "../Herbs/HerbList";
 
 const MainPage = () => {
   return (
-    <TemplateView header="Herbarium">
+    <TemplateView header="Herbarium" hasBackButton={false}>
       <HerbList />
     </TemplateView>
   );

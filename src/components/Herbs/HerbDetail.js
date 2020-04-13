@@ -20,9 +20,8 @@ const HerbDetail = () => {
   const { id } = useParams();
   const plant = plants.find((plant) => plant.id === parseInt(id));
 
-  console.log(plant);
   return (
-    <TemplateView header={plant.familyName}>
+    <TemplateView header={plant.familyName} hasBackButton={true}>
       <div style={{ height: "80vh" }}>
         <AboutCard>
           <Row>
