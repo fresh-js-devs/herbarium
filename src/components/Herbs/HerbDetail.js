@@ -13,6 +13,7 @@ const AboutCard = styled.div({
   marginRight: "10vw",
   paddingTop: "5vh",
   paddingBottom: "5vh",
+  overflow: "hidden",
 });
 
 const HerbDetail = () => {
@@ -34,8 +35,10 @@ const HerbDetail = () => {
                   objectFit: "cover",
                   display: "block",
                   margin: "auto",
-                  width : "100%",
-                  height : "100%"
+                  width: "400px",
+                  height: "auto",
+                  overflow: "hidden",
+                  clip: "border-box",
                 }}
               ></img>
             </Col>
