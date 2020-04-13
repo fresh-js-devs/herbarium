@@ -7,7 +7,7 @@ import plants from '../../data/plants.json';
 const MainPage = () => {
 
     const {push} = useHistory();
-
+//
     const handleGoToHerbDetail = id => push(`/herb/${id}`);
     return (
         <Layout>
