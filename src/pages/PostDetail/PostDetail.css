@@ -1,0 +1,31 @@
+.card-detail {
+    background-color: #fff;
+    border-bottom: 1px solid #e3e3e3;
+    padding: 1rem;
+    cursor: pointer;
+  }
+  
+  .card-detail .post-detail__header {
+    display: flex;
+  }
+  
+  .card-detail .post-detail__header img .card-detail__header-name{
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .card-detail__header-name {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+  }
+  
+  .card-detail .card-detail__content {
+    margin-top: 1rem;
+  }
+  
+  .card-detail .card-detail__content .card__message {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
