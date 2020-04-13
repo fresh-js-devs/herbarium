@@ -48,38 +48,21 @@
 }
 
 .container {
-  width: 50rem;
+  width: 70rem;
   margin: 0 auto;
   border-left: 1px solid #e3e3e3;
   border-right: 1px solid #e3e3e3;
   background-color: burlywood;
 }
 
-.container h1 {
+/* .container h1 {
   font-size: 1.2rem;
   padding: 1.2rem;
   background-color: burlywood;
   border-bottom: 1px solid #e3e3e3;
-}
+} */
 
-.btn-primary {
-  border: none;
-  color: white;
-  background-color: #3498db;
-  padding: 0.5rem 1rem;
-  border-radius: 1rem;
-  font-weight: 700;
-  font-size: 1.1rem;
-  transition: background-color 0.7s ease-out;
-}
 
-.btn-primary:hover,
-.btn-primary:active {
-  background-color: #2980b9;
-}
-.go-back-icon {
-  color: #3498db;
-  margin-right: 1rem;
-  border-radius: 50%;
-  cursor: pointer;
-}
+
+
+

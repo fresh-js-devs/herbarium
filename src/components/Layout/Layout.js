@@ -9,8 +9,9 @@ const Layout = ({ children, id}) => {
 
   return (
     <div className='App'>
-      <Logo />
+      {/* <Logo /> */}
       <div className='container'>
+      <Logo />
         {pathname === '/' ? <PageHeader>Main page</PageHeader> : <PageHeader>Detail page</PageHeader>}   {/* according to pathname(url) will be render 'Main page' or 'Detail page' */}
         {children}
       </div>

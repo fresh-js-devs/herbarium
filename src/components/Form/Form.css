@@ -1,10 +1,10 @@
 .form {
     width: 100%;
-    height: 100%;
-    margin: 30px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: lightgreen;
+    background-color: green;
+    /* border-bottom: solid 3px lightgreen;
+    border-top: solid 3px lightgreen; */
     padding: 20px 0;
 }

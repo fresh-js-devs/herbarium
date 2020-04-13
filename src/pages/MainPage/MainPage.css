@@ -16,3 +16,10 @@
 .nadpis {
     color: blue;
 }
+
+
+#cards {
+    display: flex; 
+    flex-wrap: wrap; 
+    width:100%;
+}

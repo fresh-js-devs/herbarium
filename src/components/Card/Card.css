@@ -1,71 +1,26 @@
-.card {
-    display: flex;
-    margin-bottom: 40px;
-    background-color: #fff;
-    border: 2px solid lightgreen;
-    transition: background-color 0.7s ease-out;
-    /* cursor: pointer; */
-    padding: 1rem;
-  }
 
-  .cardPlant {
-    min-height: 200px;
-    margin-bottom: 40px;
-    padding: 20px;
-    width: 30%;
-    border: 1px solid red;
-  }
-  
-  .card:hover {
-    background-color: lightgreen;
-  }
-  
-  .card .card__profile img {
-    border-radius: 50%;
-    width: 4.5rem;
-    height: 4.5rem;
-  }
-  
-  .card .card__content {
-    margin-left: 1.5rem;
-  }
-  
-  .card .card__content .card__content-header {
-    display: flex;
-  }
-  
-  .card .card__content .card__content-header h4,
-  .card .card__content .card__content-header span {
-    margin-right: 0.4rem;
-  }
-  
-  
-.buttonBlock {
+.cardBox {
+  width: 100%;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-wrap: wrap;
+  border: 2px solid blue;
+  justify-content: space-around;
 }
+  
 
-
-.buttonDetail {
-  /* display: flex;
-  flex-direction: column; */
-  cursor: pointer;
-  margin-top: 15px;
-  background-color: burlywood;
-  font-size: large;
+img {
+  border-radius: 50%;
+  width: 4.5rem;
+  height: 4.5rem;
 }
-
+  
 .buttonDelete {
-  /* display: flex;
-  flex-direction: column; */
   cursor: pointer;
-  margin-top: 15px;
-  background-color: red;
-  color: white;
-  font-size: large;
+    margin-top: 15px;
+    background-color: red;
+    color: white;
+    font-size: large;
 }
-
 
 h4 {
   color: brown;

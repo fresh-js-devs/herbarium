@@ -1,7 +1,7 @@
 .logo {
-    position: absolute;
+    position: relative;
     top: 0.7rem;
-    left: 15%;
+    left: 35%;
     font-size: 1.6rem;
     font-weight: 700;
     color: brown;

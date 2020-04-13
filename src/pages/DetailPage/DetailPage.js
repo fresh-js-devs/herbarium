@@ -10,17 +10,20 @@ import "./DetailPage.css";
 import plantImg from '../../plant.png'
 
 
+import MessageBlock from '../../components/atoms/MessageBlock.js'
+import OneMessage from '../../components/atoms/OneMessage.js'
+
+
 const DetailPage = () => {
   const { id } = useParams();
-
+  
   const plant = plants.find(plant => plant.id === parseInt(id));
   const { familyName, scintificName, commonName, about } = plant;
-
-
 
   return (
     <Layout>
       <div className="detail-page">
+
         <div className="detail-page__header">
           <img
             src={plantImg}
@@ -30,33 +33,33 @@ const DetailPage = () => {
             <h2>{familyName}</h2>
           </div>
         </div>
+
         <div className="detail-page__content">
-          <div className="messageBlock">
-            <div className="card__message">
-              <strong>Scintific name: </strong>
-            </div>
-              {scintificName}
-          </div>
+
+          <MessageBlock>
+            <OneMessage>
+              Scintific name: 
+            </OneMessage>
+            {scintificName}
+          </MessageBlock>
           <hr/>
 
-          <div className="messageBlock">
-            <div className="card__message">
-              <strong>Common name: </strong>
-            </div>
-              {commonName}
-          </div>
+          <MessageBlock>
+            <OneMessage>
+              Common name:
+            </OneMessage>
+            {commonName}
+          </MessageBlock>
           <hr/>
 
-           <div className="messageBlock">
-            <div className="card__message">
-              <strong>About: </strong>
-            </div>
+          <MessageBlock>
+            <OneMessage>
+              About:
+            </OneMessage>
             {about}
-          </div>
-
-          <div className="detail-page__action-buttons">
-          </div>
+          </MessageBlock>
         </div>
+
       </div>
     </Layout>
   );

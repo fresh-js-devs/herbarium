@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-import { useHistory, useLocation } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 
 import "./MainPage.css";
 
-// import PlantBox from '../../components/PlantBox/PlantBox';
 import Layout from '../../components/Layout/Layout';
 import Card from '../../components/Card/Card';
 
@@ -25,17 +24,26 @@ const MainPage = () => {
 
 
   const handleAddPlantClicked = () => {
-    const newPlant = {
-      id: plants.length + 10,
-      familyName,
-      about,
-    };
+    console.log(plants);
+    // const newPlant = {
+    //   id: plants.length,
+    //   familyName,
+    //   scintificName,
+    //   commonName,
+    //   about,
+    // };
 
-    setPlants([newPlant, ...plants]);
+    console.log(plants);
+    plants.push({id: plants.length+1, familyName: familyName, scintificName: scintificName, commonName: commonName, about: about});
+    // setPlants([ ...plants, newPlant]);
+
+
     setFamilyName('');
     setScintificName('');
     setCommonName('');
     setAbout('');
+
+    console.log(plants);
   };
 
 
@@ -49,9 +57,10 @@ const MainPage = () => {
 
   const { push } = useHistory();
 
-  const handleGoToPlantDetail = id => push(`/plant/${id}`);
 
-  
+  const handleGoToPlantDetail = id => {
+    push(`/plant/${id}`);
+  }
 
   return (
     <Layout>
@@ -85,13 +94,11 @@ const MainPage = () => {
         </Button>
       </Form>
 
-      {/* <PlantBox /> */}
-      <div className='content'>
+      <div className='content' id="cards">
         {plants.map(({ id, familyName, scintificName }) => (
           <Card
             key={id}
             familyName={familyName}
-            scintificName={scintificName}
             onGoToPlantDetail={() => handleGoToPlantDetail(id)}
             onDeleteClick={() => handleDeletePlantCard(id)}
           />
