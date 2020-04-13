@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 
 import herbariums from '../../data/plants.json'
 import Layout from '../../components/Layout/Layout';
+import GoBack from '../../components/GoBack/GoBack'
 
 import './HerbariumDetail.css'
 
@@ -33,6 +34,7 @@ const HerbariumDetail = () => {
                 
             </div>
         )}
+        <GoBack />
         </Layout>
     );
 
