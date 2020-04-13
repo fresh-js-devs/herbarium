@@ -4,7 +4,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleLeft, faBackspace } from "@fortawesome/free-solid-svg-icons";
 
 import Layout from '../../components/Layout/Layout';
-import "./HerbDetail";
+import herbs from '../../data/plants.json';
+import "./HerbDetail.css";
 
 //import herbs from "components/data/plants.json"
 //https://hackernoon.com/react-pro-tip-use-absolute-imports-for-better-readability-and-easy-refactoring-2ad5c7f2f957
