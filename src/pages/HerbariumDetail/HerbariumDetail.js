@@ -29,12 +29,12 @@ const HerbariumDetail = () => {
         {specificHerbarium && (
             <div className='herbarium-detail'>
                 <div className='herbal-detail-header'>
-                    <h2>{specificHerbarium.familyName}</h2>
+                    <h1>{specificHerbarium.familyName}</h1>
                     <img src={specificHerbarium.img}/>
                 </div>
                 <div className='herbal-detail-content'>
-                    <li>{specificHerbarium.scintificName}</li>
-                    <li>{specificHerbarium.commonName}</li>
+                    <div><b>scintificName: </b>{specificHerbarium.scintificName}</div>
+                    <div><b>commonName: </b>{specificHerbarium.commonName}</div>
                     <p>{specificHerbarium.about}</p>
                 </div>
                 
