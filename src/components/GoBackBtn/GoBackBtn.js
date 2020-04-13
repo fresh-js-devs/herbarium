@@ -1,7 +1,7 @@
 import React from "react";
 //import "./GoBack.css";
 
-const GoBack = ({ goBack }) => {
+const GoBackBtn = ({ goBack }) => {
   return (
     <div className="back" onClick={goBack}>
       <span role="img" aria-label="back">
@@ -11,4 +11,4 @@ const GoBack = ({ goBack }) => {
   );
 };
 
-export default GoBack;
+export default GoBackBtn;

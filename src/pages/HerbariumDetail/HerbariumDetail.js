@@ -3,7 +3,7 @@ import { useParams, useHistory } from 'react-router-dom';
 
 import herbariums from '../../data/plants.json'
 import Layout from '../../components/Layout/Layout';
-import GoBack from '../../components/GoBack/GoBack'
+import GoBackBtn from '../../components/GoBackBtn/GoBackBtn'
 
 import './HerbariumDetail.css'
 
@@ -12,7 +12,10 @@ const HerbariumDetail = () => {
     const {id} =useParams();
     const [specificHerbarium, setSpecificHerbarium] = useState({});
 
-    const history = useHistory();
+    //const history = useHistory();
+
+    const { push } = useHistory();
+    const goBack = () => push('/');
 
     useEffect(() => {
         if(id) {
@@ -36,7 +39,7 @@ const HerbariumDetail = () => {
                 
             </div>
         )}
-        <BackButton goBack={() => history.goBack()} />
+        <GoBackBtn goBack={() => goBack()} />
         </Layout>
     );
 
