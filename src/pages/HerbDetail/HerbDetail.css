@@ -1,0 +1,24 @@
+.herb-detail {
+    /* background-color: rgb(26, 231, 231); */
+    border-bottom: 1px solid #e3e3e3;
+    transition: background-color 0.7s ease-out;
+    padding: 1rem;    
+  }
+  
+  .herb-detail .herb-detail__picture img {
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+  }  
+  
+  .herb-detail .herb-detail__content {
+    margin-top: 1rem;
+  }
+
+  .backbutton{
+    height:  10rem;
+    background-color: rgb(165, 155, 14);
+    border-bottom: 1px solid #e3e3e3;
+    border-top: 1px solid #e3e3e3;
+    cursor: pointer;
+  }

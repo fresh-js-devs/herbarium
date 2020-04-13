@@ -1,6 +1,6 @@
 .herbitem {
     display: flex;
-    background-color: #fff;
+    background-color: rgba(68, 216, 23, 0.651);
     border-bottom: 1px solid #e3e3e3;
     transition: background-color 0.7s ease-out;
     cursor: pointer;
@@ -11,12 +11,13 @@
     background-color: #eee;
   }
   
-  .herbitem .herbitem__profile img {
+  .herbitem .herbitem__picture img {
     border-radius: 50%;
     width: 4rem;
     height: 4rem;
   }
   
-  .herbitem .herbitem__content {
+  .herbitem .herbitem__header {
     margin-left: 1rem;
+    display: flex;
   }
