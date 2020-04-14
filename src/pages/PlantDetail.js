@@ -1,9 +1,15 @@
 import React from "react";
 import { useParams } from "react-router-dom";
+/**
+ * FEEDBACK: Doporucuju oddelit importy 3. strany s vlastnimi
+ */
 import plants from "../data/plants.json";
 import PlantContent from "../components/PlantContent/PlantContent";
 import { useHistory } from "react-router-dom";
 
+/**
+ * FEEDBACK: Zbyecny React Fragment
+ */
 const PlantDetail = () => {
   const { id } = useParams();
 

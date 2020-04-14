@@ -1,6 +1,9 @@
 import React from "react";
 import styled from "@emotion/styled";
 import { ArrowBack } from "@material-ui/icons";
+/**
+ * FEEDBACK: Zbytecny import
+ */
 import { useHistory } from "react-router-dom";
 
 const Wrapper = styled.div`

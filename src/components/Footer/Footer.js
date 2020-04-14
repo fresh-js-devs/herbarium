@@ -1,5 +1,8 @@
 import React from "react";
 import styled from "@emotion/styled";
+/**
+ * FEEDBACK: Chybela mezera mezi styled divem a importy
+ */
 const MyFooter = styled.div`
   display: flex;
   margin-top: 50px;

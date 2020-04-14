@@ -6,6 +6,9 @@ import Grid from "@material-ui/core/Grid";
 import { useHistory } from "react-router-dom";
 
 const MainPage = () => {
+  /**
+   * FEEDBACK: Zbytecny setPlants
+   */
   const [plants, setPlants] = useState(Plants);
   const { push } = useHistory();
   const handleGoToPlantDetail = (id) => push(`/plant/${id}`);

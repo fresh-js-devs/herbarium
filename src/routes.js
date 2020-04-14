@@ -1,4 +1,7 @@
 import React from "react";
+/**
+ * FEEDBACK: Zbytecny Router
+ */
 import { Switch, Router, BrowserRouter, Route } from "react-router-dom";
 
 import MainPage from "./pages/MainPage";

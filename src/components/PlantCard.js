@@ -16,6 +16,10 @@ const useStyles = makeStyles({
     height: 140,
   },
 });
+
+/**
+ * FEEDBACK: Moc moc nevyuzitych props
+ */
 const PlantCard = ({
   id,
   familyName,

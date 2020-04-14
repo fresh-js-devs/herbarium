@@ -1,6 +1,9 @@
 import React from "react";
 import styled from "@emotion/styled";
 import { FilterVintage } from "@material-ui/icons";
+/**
+ * FEEDBACK: Chybela mezera mezi styled divem a importy
+ */
 const Herbarium = styled.div`
   display: flex;
   height: 80px;
