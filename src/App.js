@@ -1,4 +1,7 @@
 import React from "react";
+/**
+ * FEEDBACK: Odstranit zbytecny import
+ */
 import logo from "./logo.svg";
 import "./App.css";
 

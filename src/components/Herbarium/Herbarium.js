@@ -3,8 +3,14 @@ import React, { Component } from 'react';
 import './Herbarium.css'
 
 import Grid from '@material-ui/core/Grid';
+/**
+ * FEEDBACK: Zbytecny import
+ */
 import Paper from '@material-ui/core/Paper';
 
+/**
+ * FEEDBACK: Opet malo komponentujes
+ */
 const Herbarium = ({onGoTomDetail,familyName, scintificName,commonName, about, img}) => {
     
     return (

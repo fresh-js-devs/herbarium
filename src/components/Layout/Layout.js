@@ -5,7 +5,9 @@ import Logo from '../Logo/Logo';
 import './Layout.css'
 
 const Layout = ({ children }) => {
-
+    /**
+   * FEEDBACK: Zbytecny pathname
+   */
     const { pathname } = useLocation();
 
   return (

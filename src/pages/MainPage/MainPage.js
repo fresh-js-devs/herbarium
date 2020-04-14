@@ -1,3 +1,6 @@
+/**
+ * FEEDBACK: Component? Neni potreba...ten se pouziva u trid
+ */
 import React, { Component } from 'react';
 import { useHistory } from 'react-router-dom';
 
@@ -9,14 +12,19 @@ import './MainPage.css'
 
 
 const MainPage = () => {
-    
+    /**
+   * FEEDBACK: Zapomenuty console.log...nepouzivat nazvy promennych jako x,y...
+   */
     plants.map(x => console.log(x));
 
     const { push } = useHistory();
     const handleGoToHerbariumDetail = id => push(`/herbariumDetail/${id}`);
 
 
-
+/**
+ * FEEDBACK: nedavat mezery mezi znamenkem rovna se v properties
+ * Mozna odstranit celkove zbytecne mezery a prazdne radky...prettier by ti s tim pomohl
+ */
     return (
         
         <Layout>

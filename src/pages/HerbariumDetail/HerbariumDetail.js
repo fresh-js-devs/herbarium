@@ -1,3 +1,6 @@
+/**
+ * FEEDBACK: nepouzivat Component
+ */
 import React, { Component, useState, useEffect } from 'react';
 import { useParams, useHistory } from 'react-router-dom';
 
@@ -8,7 +11,9 @@ import GoBackBtn from '../../components/GoBackBtn/GoBackBtn'
 import './HerbariumDetail.css'
 
 const HerbariumDetail = () => {
-
+/**
+ * FEEDBACK: mezery v objektu mezi destructuringem
+ */
     const {id} =useParams();
     const [specificHerbarium, setSpecificHerbarium] = useState({});
 
@@ -17,6 +22,9 @@ const HerbariumDetail = () => {
     const { push } = useHistory();
     const goBack = () => push('/');
 
+    /**
+     * FEEDBACK: Pokud mas data lokalne, neni potrebne kontrolovat id
+     */
     useEffect(() => {
         if(id) {
             const herbarium = herbariums.find(herbarium => herbarium.id === parseInt(id));
@@ -24,6 +32,11 @@ const HerbariumDetail = () => {
         }
     },[id]);
 
+    /**
+     * FEEDBACK: U img nezapominej prop alt
+     * Malo komponentujes, divy by sly jeste rozdelit do komponent
+     * specificHerbarium by slo destructnout
+     */
     return (
         <Layout>
         {specificHerbarium && (
