@@ -9,7 +9,9 @@ import "./DetailPage.css";
 
 import plantImg from '../../plant.png'
 
-
+/**
+ * FEEDBACK: Pripona .js byt nemusi
+ */
 import MessageBlock from '../../components/atoms/MessageBlock.js'
 import OneMessage from '../../components/atoms/OneMessage.js'
 

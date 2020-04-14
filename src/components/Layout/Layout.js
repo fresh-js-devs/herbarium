@@ -3,10 +3,12 @@ import { useLocation } from 'react-router-dom';
 
 import Logo from '../Logo/Logo';
 import PageHeader from '../../components/atoms/Nadpis.js'
-
+/**
+ * FEEDBACK: Zbytecne id
+*/
 const Layout = ({ children, id}) => {
   const { pathname } = useLocation();
-
+  
   return (
     <div className='App'>
       {/* <Logo /> */}

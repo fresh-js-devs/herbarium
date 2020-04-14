@@ -24,6 +24,9 @@ const MainPage = () => {
 
 
   const handleAddPlantClicked = () => {
+    /**
+     * FEEDBACK: Nezapominej odstranovat console.logy a zakomentovany kod
+     */
     console.log(plants);
     // const newPlant = {
     //   id: plants.length,
@@ -34,6 +37,9 @@ const MainPage = () => {
     // };
 
     console.log(plants);
+    /**
+     * FEEDBACK: Velke objekty zformatovat na jeden radej + pokud klic a hodnota maji stejny nazev, nemusis psat hodnotu. Pr. Misto familyName: familyName, muzes psat jen familyName
+     */
     plants.push({id: plants.length+1, familyName: familyName, scintificName: scintificName, commonName: commonName, about: about});
     // setPlants([ ...plants, newPlant]);
 
@@ -57,11 +63,15 @@ const MainPage = () => {
 
   const { push } = useHistory();
 
-
+  /**
+     * FEEDBACK: Zbytecne zavorky
+     */
   const handleGoToPlantDetail = id => {
     push(`/plant/${id}`);
   }
-
+  /**
+   * FEEDBACK: Zbytecny scientificNam
+   */ 
   return (
     <Layout>
       <Form>

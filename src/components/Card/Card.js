@@ -10,6 +10,9 @@ import ButtonBlock from '../../components/atoms/ButtonBlock.js'
 import ButtonDetail from '../../components/atoms/ButtonDetail.js'
 import ButtonDelete from '../../components/atoms/ButtonDelete.js'
 
+/**
+ * FEEDBACK: Zbytecny return a slozene zavorky
+ */
 const Card = ({ onGoToPlantDetail, onDeleteClick, familyName}) => {
 
   return (
