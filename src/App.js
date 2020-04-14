@@ -1,4 +1,7 @@
 import React from "react";
+/**
+ * FEEDBACK: Zbytecny import
+ */
 import logo from "./logo.svg";
 import "./App.css";
 

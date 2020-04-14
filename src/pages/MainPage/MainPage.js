@@ -9,6 +9,9 @@ const MainPage = () => {
     const {push} = useHistory();
 //
     const handleGoToHerbDetail = id => push(`/herb/${id}`);
+    /**
+     * FEEDBACK: Chybi ti prop key u HerbItem!
+     */
     return (
         <Layout>
             <h1>Herbarium App - Main Page</h1> 

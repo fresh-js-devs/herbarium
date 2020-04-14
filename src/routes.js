@@ -4,6 +4,9 @@ import { Switch, Route, BrowserRouter } from 'react-router-dom';
 import MainPage from './pages/MainPage/MainPage';
 import HerbDetail from './pages/HerbDetail/HerbDetail';
 
+/**
+ * FEEDBACK: Nedelej mezery mezi znamenkem rovna se v props
+ */
 export default () => (
     <BrowserRouter>
         <Switch>

@@ -2,6 +2,9 @@ import React from 'react';
 import './HerbItem.css';
 
 
+/**
+ * FEEDBACK: Zbytecne nove radky, opet malo descriptivni alt prop
+ */
 const HerbItem = ({ id, commonName, img, onGoToHerbDetail}) => {
 
 
