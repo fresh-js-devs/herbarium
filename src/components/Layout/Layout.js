@@ -5,6 +5,10 @@ import Heading from "../atoms/Heading";
 const Layout = ({ children }) => {
   const { pathname } = useLocation();
 
+  /**
+   * FEEDBACK: heading bych dal do promenne, zbavil by ses tak ternary vyrazu
+   * isDetail by mel byt const protoze ho nemenis, je lepsi vzdy zacit s const a pripadne zmenit na let
+   */
   let isDetail = pathname === "/";
 
   return (
