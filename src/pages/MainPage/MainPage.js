@@ -9,10 +9,16 @@ import HerbCard from "../../components/organisms/HerbCard";
 import Herbs from "../../mocks/cards.json";
 
 const MainPage = () => {
+  /**
+   * FEEDBACK: zbytecny setter.
+   */
   const [herbs, setHerbs] = useState(Herbs);
 
   const { push, location } = useHistory();
 
+  /**
+   * FEEDBACK: zbytecny return a slozene zavorky.
+   */
   const handleIsInRoot = () => {
     return location.pathname === "/";
   };
@@ -21,6 +27,9 @@ const MainPage = () => {
 
   const handleGoToHerbDetails = (id) => push(`/herb/${id}`);
 
+  /**
+   * FEEDBACK: zbytecny description.
+   */
   const renderHerbsCards = () =>
     herbs &&
     herbs.map(({ id, name, description, imgName, shortDescription }) => (

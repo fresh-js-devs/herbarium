@@ -11,6 +11,9 @@ const HerbDetails = () => {
   const { id } = useParams();
   const { location } = useHistory();
 
+  /**
+   * FEEDBACK: zbytecny return a slozene zavorky.
+   */
   const handleIsInRoot = () => {
     return location.pathname === "/";
   };

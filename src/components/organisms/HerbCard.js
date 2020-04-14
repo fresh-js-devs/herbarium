@@ -22,6 +22,9 @@ const useStyles = makeStyles({
   },
 });
 
+/**
+   * FEEDBACK: zbytecne id.
+   */
 const HerbCard = ({
   id,
   name,
