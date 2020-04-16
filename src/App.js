@@ -1,11 +1,16 @@
 import React from "react";
 import "./App.css";
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
+/**
+ * FEEDBACK: Oddelovat importy 3.strany s vlastnimi importy
+ */
 import MainPage from './MainPage';
 import CardDetail from './components/card/DetailCard';
 
 function App() {  
-  
+  /**
+   * FEEDBACK: Idealne by tyto routy mely byt v oddelenem soubour napr. routes.js
+   */
   return (
     <BrowserRouter>
       <Switch>

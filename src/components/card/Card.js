@@ -1,7 +1,16 @@
 import React from 'react';
+/**
+ * FEEDBACK: Oddelovat importy 3.strany s vlastnimi importy
+ */
 import './Card.css';
 import '../../MainPage';
 
+/**
+ * FEEDBACK: Nepouzivane promenne odstranit
+ * img nema alt
+ * dalo by se oddelit do vice komponent - renderovaci funce je tady zbytecna
+ * 
+ */
 const Card = ({
     id,
     familyName,
