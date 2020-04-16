@@ -1,5 +1,8 @@
 import React from 'react';
 import {BrowserRouter,Switch,Route} from 'react-router-dom';
+/**
+ * FEEDBACK: Oddelovat importy 3.strany s vlastnimi importy
+ */
 import MainPage from './pages/MainPage/MainPage';
 import HerbDetail from './pages/HerbDetail/HerbDetail';
 

@@ -1,6 +1,8 @@
 import React from 'react';
 import './Herb.css';
-
+/**
+ * FEEDBACK: Opet malo komponentujes...header by byla zase komponenta
+ */
 const Herb = ({onGoToHerbDetail, commonName, img, about}) => {
     return(
         <div onClick = {onGoToHerbDetail} className = 'herb'>            

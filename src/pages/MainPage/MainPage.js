@@ -1,5 +1,8 @@
 import React from 'react';
 import {useHistory} from 'react-router-dom';
+/**
+ * FEEDBACK: Oddelovat importy 3.strany s vlastnimi importy
+ */
 import Layout from '../../components/Layout/Layout';
 import Herb from '../../components/Herb/Herb';
 import herbs from '../../data/plants.json';
