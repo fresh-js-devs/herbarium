@@ -1,6 +1,8 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
-
+/**
+ * FEEDBACK: Nevyuzite importy odstranit prosit
+ */
 import MessageBox from "../../components/MessageBox/MessageBox";
 import Layout from "../../components/Layout/Layout";
 import Post from "../../components/Post/Post";
