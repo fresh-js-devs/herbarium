@@ -16,6 +16,10 @@ const useStyles = makeStyles({
   },
 });
 
+/**
+ * FEEDBACK: Asi bych moc nekombinoval cestinu s anglictinou
+ * Nevyuzite props odstranit
+ */
 const Karta = ({ onGoToPlantDetail, sname, name, about, img }) => {
   const classes = useStyles();
   return (

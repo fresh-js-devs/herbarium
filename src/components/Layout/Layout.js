@@ -1,9 +1,16 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
 import { useParams } from "react-router-dom";
+/**
+ * FEEDBACK: Oddelovat importy 3.strany s vlastnimi importy
+ */
 import plants from "../../data/plants.json";
 import Logo from "../Logo/Logo";
 
+/**
+ * FEEDBACK: Tady moc nechapu, co se deje
+ * nepouzivat var
+ */
 const Layout = ({ children }) => {
   const { pathname } = useLocation();
   const { id } = useParams();

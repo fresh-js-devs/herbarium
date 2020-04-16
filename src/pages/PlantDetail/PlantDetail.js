@@ -1,4 +1,7 @@
 import React from "react";
+/**
+ * FEEDBACK: Oddelovat importy 3.strany s vlastnimi importy
+ */
 import Layout from "../../components/Layout/Layout";
 import { useParams } from "react-router-dom";
 import ArrowBackIcon from "@material-ui/icons/ArrowBack";
@@ -7,6 +10,9 @@ import plants from "../../data/plants.json";
 
 import "./PlantDetail.css";
 
+/**
+ * FEEDBACK: Malo komponentujes
+ */
 const PlantDetail = () => {
   const { id } = useParams();
   const { goBack } = useHistory();
