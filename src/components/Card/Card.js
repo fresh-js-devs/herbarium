@@ -2,6 +2,9 @@ import React from 'react';
 
 import './Card.css';
 
+/**
+ * FEEDBACK: Odstranit nevyuzity about
+ */
 const Card = ({ onGoToPostDetail, commonName, about, img }) => {
     return (
         <div className='card' onClick={onGoToPostDetail}>

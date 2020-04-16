@@ -2,6 +2,10 @@ import React from 'react';
 import Layout from '../../components/Layout/Layout';
 
 import plants from '../../data/plants.json';
+
+/**
+ * FEEDBACK: Oddelovat importy 3.strany s vlastnimi importy. melo by to byt pod importem reactu
+ */
 import { useParams } from 'react-router-dom';
 
 import "./PostDetail.css";
