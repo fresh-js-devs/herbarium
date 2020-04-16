@@ -1,6 +1,9 @@
 import React from "react";
 import {useHistory} from 'react-router-dom';
 import { Col, Row } from "antd";
+/**
+ * FEEDBACK: Oddelovat importy 3.strany s vlastnimi importy
+ */
 import SiteLayout from "../../components/SiteLayout/SiteLayout";
 import PlantCard from "../../components/PlantCard/PlantCard";
 
@@ -8,6 +11,9 @@ import "./MainPage.css";
 import plants from "../../data/plants.json";
 
 const MainPage = () => {
+  /**
+ * FEEDBACK: Mezera mezi rovna se
+ */
     const {push}=useHistory();
 
     const handleGoToPlantDetail=(id)=>{push(`/plant/${id}`)};

@@ -6,6 +6,9 @@ import './PlantDetail.css'
 import plants from '../../data/plants.json';
 import SiteLayout from '../../components/SiteLayout/SiteLayout';
 
+/**
+ * FEEDBACK: Davej si pozor na mezery mezi rovna se...je to ve vice souborech
+ */
 const PlantDetail=()=>{
     const {id}=useParams();
     const plant=plants.find(plant=>plant.id===parseInt(id));
@@ -14,6 +17,9 @@ const PlantDetail=()=>{
     const {Meta}=Card;
 
     const CardDescription=()=>{
+        /**
+         * FEEDBACK: Chybi odsazeni v React Fragmentu
+         */
         return(
             <>
             <h4>Common Name</h4>
@@ -25,6 +31,9 @@ const PlantDetail=()=>{
             </>
         )
     }
+    /**
+     * FEEDBACK: Odstranit console.log
+     */
     console.log(plant);
 
     return(

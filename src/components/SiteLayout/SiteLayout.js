@@ -1,12 +1,18 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
 import { Layout } from "antd";
+/**
+ * FEEDBACK: Oddelovat importy 3.strany s vlastnimi importy
+ */
 import './SiteLayout.css'
 
 const SiteLayout = ({ children }) => {
   const { Header, Content, Footer } = Layout;
   const { pathname } = useLocation();
 
+  /**
+ * FEEDBACK: Opet problem s mezery...v ternary by mela byt mezera mezi ? a :
+ */
   return (
     <Layout className="layout">
       <Header className="site-header">

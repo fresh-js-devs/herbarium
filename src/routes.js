@@ -4,6 +4,9 @@ import{Switch,Route,BrowserRouter} from 'react-router-dom';
 import MainPage from './pages/MainPage/MainPage';
 import PlantDetail from './pages/PlantDetail/PlantDetail';
 
+/**
+ * FEEDBACK: Chybi ti mezery mezi zavorky
+ */
 const Routes=()=>{
     return(
         <BrowserRouter>
