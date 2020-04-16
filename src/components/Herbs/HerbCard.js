@@ -1,6 +1,9 @@
 import React from "react";
 
 import { Card } from "react-bootstrap";
+/**
+ * FEEDBACK: Oddelovat importy 3.strany s vlastnimi importy
+ */
 import { Button } from "../Atoms/Buttons";
 
 const HerbCard = ({ plant, handleDetailClicked }) => {

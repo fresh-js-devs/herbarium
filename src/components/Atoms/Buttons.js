@@ -1,5 +1,9 @@
 import styled from "@emotion/styled";
 
+/**
+ * FEEDBACK: Bylo by dobre pouzit styled zaklad a specificke veci napr. ci je to BackButton, upravit pomoci props
+ * Je to dost redundantni
+ */
 export const Button = styled.button({
   minWidth: "70px",
   minHeight: "50px",

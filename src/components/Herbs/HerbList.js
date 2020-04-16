@@ -8,6 +8,9 @@ import HerbCard from "./HerbCard";
 
 import plants from "../../data/plants.json";
 
+/**
+ * FEEDBACK: Tohle by mohla byt vlastni komponenta
+ */
 const Wrapper = styled.div({
   display: "flex",
   flexDirection: "row",

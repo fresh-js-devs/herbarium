@@ -38,7 +38,9 @@ const TemplateView = ({ header, hasBackButton, children }) => {
   const history = useHistory();
 
   const handleBackClick = () => history.goBack();
-
+  /**
+ * FEEDBACK: Zbytecny ternarni operator...lepsi by tady bylo pouzit operator &&...zbavil by ses tak toho <div></div>
+ */
   return (
     <Base>
       <Header>
